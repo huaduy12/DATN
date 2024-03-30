@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>eLEARNING - eLearning HTML Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar Start -->
+    <nav
+      class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0"
+    >
+      <a
+        href="index.html"
+        class="navbar-brand d-flex align-items-center px-4 px-lg-5"
+      >
+        <h2 class="m-0 text-primary"><i class="fa fa-book me-3"></i>eTOEIC</h2>
+      </a>
+      <button
+        type="button"
+        class="navbar-toggler me-4"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto p-4 p-lg-0">
+          <a href="index.html" class="nav-item nav-link active">Trang chủ</a>
+          <a href="about.html" class="nav-item nav-link">Giới thiệu</a>
+          <a href="news.html" class="nav-item nav-link">Tin tức</a>
+          <div class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+              >Thi online</a>
+            <div class="dropdown-menu fade-down m-0">
+              <a href="team.html" class="dropdown-item">Mini Test</a>
+              <a href="testimonial.html" class="dropdown-item"
+                >Full Test</a>
+              <a href="404.html" class="dropdown-item">Skill Test</a>
+            </div>
+          </div>
+          <div class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+              >Ôn tập</a>
+            <div class="dropdown-menu fade-down m-0">
+              <a href="team.html" class="dropdown-item">Mục tiêu 450+ TOEIC</a>
+              <a href="testimonial.html" class="dropdown-item"
+                >Mục tiêu 550+ TOEIC</a>
+              <a href="404.html" class="dropdown-item">Mục tiêu 700+ TOEIC</a>
+              <a href="404.html" class="dropdown-item">Mục tiêu 800+ TOEIC</a>
+            </div>
+          </div>
+          <a href="courses.html" class="nav-item nav-link">Bài tập</a>
+          <div class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+              >Tự học TOEIC</a>
+            <div class="dropdown-menu fade-down m-0">
+              <a href="team.html" class="dropdown-item">Từ vựng Tiếng Anh</a>
+              <a href="testimonial.html" class="dropdown-item"
+                >Ngữ pháp Tiếng Anh</a>
+              <a href="404.html" class="dropdown-item">Tự học Listening</a>
+              <a href="404.html" class="dropdown-item">Tự học Reading</a>
+            </div>
+          </div>
+        </div>
+        <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block"
+          >Tham gia<i class="fa fa-arrow-right ms-3"></i
+        ></a>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5">
+      <div class="owl-carousel header-carousel position-relative">
+        <div class="owl-carousel-item position-relative">
+          <img class="img-fluid" src="img/carousel-1.jpg" alt="" />
+          <div
+            class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+            style="background: rgba(24, 29, 56, 0.7)"
+          >
+            <div class="container">
+              <div class="row justify-content-start">
+                <div class="col-sm-10 col-lg-8">
+                  <h5
+                    class="text-primary text-uppercase mb-3 animated slideInDown"
+                  >
+                    Thi TOEIC tốt nhất
+                  </h5>
+                  <h1 class="display-3 text-white animated slideInDown">
+                    Nền tảng học tập trực tuyến
+                  </h1>
+                  <p class="fs-5 text-white mb-4 pb-2">
+                    Học mọi lúc, mọi nơi "Học TOEIC mọi lúc, mọi nơi với nền tảng học trực tuyến tiện lợi và linh hoạt của chúng tôi."
+                  </p>
+                  <a
+                    href=""
+                    class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"
+                    >Xem thêm</a
+                  >
+                  <a
+                    href=""
+                    class="btn btn-light py-md-3 px-md-5 animated slideInRight"
+                    >Tham gia ngay</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="owl-carousel-item position-relative">
+          <img class="img-fluid" src="img/carousel-2.jpg" alt="" />
+          <div
+            class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+            style="background: rgba(24, 29, 56, 0.7)"
+          >
+            <div class="container">
+              <div class="row justify-content-start">
+                <div class="col-sm-10 col-lg-8">
+                  <h5
+                    class="text-primary text-uppercase mb-3 animated slideInDown"
+                  >
+                    Bộ đề thi mới nhất
+                  </h5>
+                  <h1 class="display-3 text-white animated slideInDown">
+                    Thi thử và đánh giá trình độ
+                  </h1>
+                  <p class="fs-5 text-white mb-4 pb-2">
+                    Đề thi thực hành giống đề thi thật 
+                    "Làm quen với định dạng và khó khăn của bài thi TOEIC thực tế với hàng ngàn đề thi thực hành giống đề thi thật."
+                  </p>
+                  <a
+                    href=""
+                    class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"
+                    >Xem thêm</a
+                  >
+                  <a
+                    href=""
+                    class="btn btn-light py-md-3 px-md-5 animated slideInRight"
+                    >Tham gia ngay</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Carousel End -->
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="service-item text-center pt-3">
+              <div class="p-4">
+                <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
+                <h5 class="mb-3">Tự học TOEIC</h5>
+                <p>
+                    Kết nối và trao đổi với người học khác. Chia sẻ kinh nghiệm, thông tin hữu ích
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="service-item text-center pt-3">
+              <div class="p-4">
+                <i class="fa fa-3x fa-globe text-primary mb-4"></i>
+                <h5 class="mb-3">Thi Online</h5>
+                <p>
+                    Hàng nghìn đề thi giống đề thi thật. Chấm điểm tự động, phân tích điểm mạnh yếu
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="service-item text-center pt-3">
+              <div class="p-4">
+                <i class="fa fa-3x fa-home text-primary mb-4"></i>
+                <h5 class="mb-3">Cộng đồng TOEIC</h5>
+                <p>
+                 Với cộng đồng lớn mạnh. Hỏi đáp, tư vấn, hướng dẫn, giải đáp thắc mắc về TOEIC
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+            <div class="service-item text-center pt-3">
+              <div class="p-4">
+                <i class="fa fa-3x fa-book-open text-primary mb-4"></i>
+                <h5 class="mb-3">Bài giảng bài bản, chi tiết</h5>
+                <p>
+                    Giải thích lý thuyết và ví dụ minh họa. Bài tập thực hành sau mỗi bài học
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Service End -->
+
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div class="row g-5">
+          <div
+            class="col-lg-6 wow fadeInUp"
+            data-wow-delay="0.1s"
+            style="min-height: 400px"
+          >
+            <div class="position-relative h-100">
+              <img
+                class="img-fluid position-absolute w-100 h-100"
+                src="img/about.jpg"
+                alt=""
+                style="object-fit: cover"
+              />
+            </div>
+          </div>
+          <div class="col-lg-6 wow fadeInUp text-justify" data-wow-delay="0.3s">
+            <h6 class="section-title bg-white text-start text-primary pe-3">
+              Về chúng tôi
+            </h6>
+            <h1 class="mb-4">Chào mừng đến với eTOEIC</h1>
+            <p class="mb-4">
+                Nền tảng học tập và luyện thi TOEIC hàng đầu. 
+                Tại đây, chúng tôi đồng hành cùng bạn trên hành trình chinh phục chứng chỉ tiếng Anh quốc tế TOEIC danh giá.
+            </p>
+            <p class="mb-4 \">
+                Với đội ngũ giảng viên giàu kinh nghiệm và chuyên môn sâu rộng. Bạn sẽ được tiếp cận các bài giảng video chi tiết, 
+                ngân hàng đề thi phong phú luôn được cập nhật mới nhất. 
+                Hệ thống thi trực tuyến mô phỏng hoàn toàn định dạng và cách thức thi thật, 
+                giúp bạn làm quen và nâng cao khả năng làm bài một cách tối ưu.
+            </p>
+            <div class="row gy-2 gx-4 mb-4">
+              <div class="col-sm-6">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>Bài giảng video bài bản, chi tiết
+                </p>
+              </div>
+              <div class="col-sm-6">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>Ngân hàng đề thi phong phú
+                </p>
+              </div>
+              <div class="col-sm-6">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i
+                  >Luyện thi TOEIC trực tuyến
+                </p>
+              </div>
+              <div class="col-sm-6">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>Diễn đàn, cộng đồng học TOEIC
+                </p>
+              </div>
+              <div class="col-sm-6">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>Tư vấn, đăng ký thi TOEIC chính thức
+                </p>
+              </div>
+              <div class="col-sm-6">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i
+                  >Liên kết với tổ chức thi TOEIC
+                </p>
+              </div>
+            </div>
+            <a class="btn btn-primary py-3 px-5 mt-2" href="">Xem thêm</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Courses Start -->
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+          <h6 class="section-title bg-white text-center text-primary px-3">
+            Đề thi
+          </h6>
+          <h1 class="mb-5">Đề thi HOT</h1>
+        </div>
+        <div class="row g-4 justify-content-center">
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="course-item bg-light">
+              <div class="position-relative overflow-hidden">
+                <img class="img-fluid" src="img/course-1.jpg" alt="" />
+                <div
+                  class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4"
+                >
+                  <a
+                    href="#"
+                    class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end"
+                    style="border-radius: 30px 0 0 30px"
+                    >Xem thêm</a
+                  >
+                  <a
+                    href="#"
+                    class="flex-shrink-0 btn btn-sm btn-primary px-3"
+                    style="border-radius: 0 30px 30px 0"
+                    >Tham gia</a
+                  >
+                </div>
+              </div>
+              <div class="text-center p-4 pb-0">
+                <h3 class="mb-0">Free</h3>
+                <div class="mb-3">
+                  <small class="fa fa-star text-primary"></small>
+                  <small class="fa fa-star text-primary"></small>
+                  <small class="fa fa-star text-primary"></small>
+                  <small class="fa fa-star text-primary"></small>
+                  <small class="fa fa-star text-primary"></small>
+                  <small>(123)</small>
+                </div>
+                <h5 class="mb-4">
+                Practice Full Test TOEIC Reading, Listening latest
+                </h5>
+              </div>
+              <div class="d-flex border-top">
+                <small class="flex-fill text-center border-end py-2"
+                  ><i class="fa fa-user-tie text-primary me-2"></i>Hứa Duy</small
+                >
+                <small class="flex-fill text-center border-end py-2"
+                  ><i class="fa fa-clock text-primary me-2"></i>120 phút</small
+                >
+                <small class="flex-fill text-center py-2"
+                  ><i class="fa fa-user text-primary me-2"></i>300 người tham gia</small
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="course-item bg-light">
+              <div class="position-relative overflow-hidden">
+                <img class="img-fluid" src="img/course-2.jpg" alt="" />
+                <div
+                  class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4"
+                >
+                  <a
+                    href="#"
+                    class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end"
+                    style="border-radius: 30px 0 0 30px"
+                    >Read More</a
+                  >
+                  <a
+                    href="#"
+                    class="flex-shrink-0 btn btn-sm btn-primary px-3"
+                    style="border-radius: 0 30px 30px 0"
+                    >Join Now</a
+                  >
+                </div>
+              </div>
+              <div class="text-center p-4 pb-0">
+                <h3 class="mb-0">$149.00</h3>
+                <div class="mb-3">
+                  <small class="fa fa-star text-primary"></small>
+                  <small class="fa fa-star text-primary"></small>
+                  <small class="fa fa-star text-primary"></small>
+                  <small class="fa fa-star text-primary"></small>
+                  <small class="fa fa-star text-primary"></small>
+                  <small>(123)</small>
+                </div>
+                <h5 class="mb-4">
+                  Web Design & Development Course for Beginners
+                </h5>
+              </div>
+              <div class="d-flex border-top">
+                <small class="flex-fill text-center border-end py-2"
+                  ><i class="fa fa-user-tie text-primary me-2"></i>John
+                  Doe</small
+                >
+                <small class="flex-fill text-center border-end py-2"
+                  ><i class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small
+                >
+                <small class="flex-fill text-center py-2"
+                  ><i class="fa fa-user text-primary me-2"></i>30
+                  Students</small
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="course-item bg-light">
+              <div class="position-relative overflow-hidden">
+                <img class="img-fluid" src="img/course-3.jpg" alt="" />
+                <div
+                  class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4"
+                >
+                  <a
+                    href="#"
+                    class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end"
+                    style="border-radius: 30px 0 0 30px"
+                    >Read More</a
+                  >
+                  <a
+                    href="#"
+                    class="flex-shrink-0 btn btn-sm btn-primary px-3"
+                    style="border-radius: 0 30px 30px 0"
+                    >Join Now</a
+                  >
+                </div>
+              </div>
+              <div class="text-center p-4 pb-0">
+                <h3 class="mb-0">$149.00</h3>
+                <div class="mb-3">
+                  <small class="fa fa-star text-primary"></small>
+                  <small class="fa fa-star text-primary"></small>
+                  <small class="fa fa-star text-primary"></small>
+                  <small class="fa fa-star text-primary"></small>
+                  <small class="fa fa-star text-primary"></small>
+                  <small>(123)</small>
+                </div>
+                <h5 class="mb-4">
+                  Web Design & Development Course for Beginners
+                </h5>
+              </div>
+              <div class="d-flex border-top">
+                <small class="flex-fill text-center border-end py-2"
+                  ><i class="fa fa-user-tie text-primary me-2"></i>John
+                  Doe</small
+                >
+                <small class="flex-fill text-center border-end py-2"
+                  ><i class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small
+                >
+                <small class="flex-fill text-center py-2"
+                  ><i class="fa fa-user text-primary me-2"></i>30
+                  Students</small
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Courses End -->
+
+    <!-- Team Start -->
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+          <h6 class="section-title bg-white text-center text-primary px-3">
+            Giảng viên
+          </h6>
+          <h1 class="mb-5">Giảng viên chuyên môn</h1>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="team-item bg-light">
+              <div class="overflow-hidden">
+                <img class="img-fluid" src="https://www.anhngumshoa.com/uploads/images/crop/500x300/anh-gv-4.jpg" alt="" />
+              </div>
+              <div
+                class="position-relative d-flex justify-content-center"
+                style="margin-top: -23px"
+              >
+                <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                  <a class="btn btn-sm-square btn-primary mx-1" href=""
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a class="btn btn-sm-square btn-primary mx-1" href=""
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a class="btn btn-sm-square btn-primary mx-1" href=""
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="text-center p-4">
+                <h5 class="mb-0">Ms. Khánh Linh</h5>
+                <small>960 TOEIC</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="team-item bg-light">
+              <div class="overflow-hidden">
+                <img class="img-fluid" src="https://www.anhngumshoa.com/uploads/images/crop/500x300/anh-gv-3.jpg" alt="" />
+              </div>
+              <div
+                class="position-relative d-flex justify-content-center"
+                style="margin-top: -23px"
+              >
+                <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                  <a class="btn btn-sm-square btn-primary mx-1" href=""
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a class="btn btn-sm-square btn-primary mx-1" href=""
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a class="btn btn-sm-square btn-primary mx-1" href=""
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="text-center p-4">
+                <h5 class="mb-0">Ms. Thu Trang</h5>
+                <small>970 TOEIC</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="team-item bg-light">
+              <div class="overflow-hidden">
+                <img class="img-fluid" src="https://www.anhngumshoa.com/uploads/images/crop/500x300/anh-gv-2.jpg" alt="" />
+              </div>
+              <div
+                class="position-relative d-flex justify-content-center"
+                style="margin-top: -23px"
+              >
+                <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                  <a class="btn btn-sm-square btn-primary mx-1" href=""
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a class="btn btn-sm-square btn-primary mx-1" href=""
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a class="btn btn-sm-square btn-primary mx-1" href=""
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="text-center p-4">
+                <h5 class="mb-0">Ms. Thùy Chi</h5>
+                <small>900 TOEIC</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+            <div class="team-item bg-light">
+              <div class="overflow-hidden">
+                <img class="img-fluid" src="https://www.anhngumshoa.com/uploads/images/crop/500x300/anh-gv.jpg" alt="" />
+              </div>
+              <div
+                class="position-relative d-flex justify-content-center"
+                style="margin-top: -23px"
+              >
+                <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                  <a class="btn btn-sm-square btn-primary mx-1" href=""
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a class="btn btn-sm-square btn-primary mx-1" href=""
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a class="btn btn-sm-square btn-primary mx-1" href=""
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="text-center p-4">
+                <h5 class="mb-0">Ms. Nguyệt Ánh</h5>
+                <small>930 TOEIC</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Team End -->
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+      <div class="container">
+        <div class="text-center">
+          <h6 class="section-title bg-white text-center text-primary px-3">
+            Niềm tự hào
+          </h6>
+          <h1 class="mb-5">Người học</h1>
+        </div>
+        <div class="owl-carousel testimonial-carousel position-relative">
+          <div class="testimonial-item text-center">
+            <img
+              class="border rounded-circle p-2 mx-auto mb-3"
+              src="img/testimonial-1.jpg"
+              style="width: 80px; height: 80px"
+            />
+            <h5 class="mb-0">Nguyễn Thu Thảo</h5>
+            <p>Học sinh</p>
+            <div class="testimonial-text bg-light text-center p-4">
+              <p class="mb-0">
+                Cảm ơn anh chị đã tạo ra website vô cùng tốt để em học tập và rèn luyện, học hỏi kiến thức mới nhất
+              </p>
+            </div>
+          </div>
+          <div class="testimonial-item text-center">
+            <img
+              class="border rounded-circle p-2 mx-auto mb-3"
+              src="img/testimonial-2.jpg"
+              style="width: 80px; height: 80px"
+            />
+            <h5 class="mb-0">Client Name</h5>
+            <p>Profession</p>
+            <div class="testimonial-text bg-light text-center p-4">
+              <p class="mb-0">
+                Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam
+                amet diam et eos. Clita erat ipsum et lorem et sit.
+              </p>
+            </div>
+          </div>
+          <div class="testimonial-item text-center">
+            <img
+              class="border rounded-circle p-2 mx-auto mb-3"
+              src="img/testimonial-3.jpg"
+              style="width: 80px; height: 80px"
+            />
+            <h5 class="mb-0">Client Name</h5>
+            <p>Profession</p>
+            <div class="testimonial-text bg-light text-center p-4">
+              <p class="mb-0">
+                Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam
+                amet diam et eos. Clita erat ipsum et lorem et sit.
+              </p>
+            </div>
+          </div>
+          <div class="testimonial-item text-center">
+            <img
+              class="border rounded-circle p-2 mx-auto mb-3"
+              src="img/testimonial-4.jpg"
+              style="width: 80px; height: 80px"
+            />
+            <h5 class="mb-0">Client Name</h5>
+            <p>Profession</p>
+            <div class="testimonial-text bg-light text-center p-4">
+              <p class="mb-0">
+                Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam
+                amet diam et eos. Clita erat ipsum et lorem et sit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Testimonial End -->
+
+    <!-- Footer Start -->
+    <div
+      class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-white mb-3">Truy cập nhanh</h4>
+            <a class="btn btn-link" href="">Giới thiệu</a>
+            <a class="btn btn-link" href="">Liên hệ</a>
+            <a class="btn btn-link" href="">Chính sách</a>
+            <a class="btn btn-link" href="">Điều khoản và điều kiện</a>
+            <a class="btn btn-link" href="">Trợ giúp</a>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-white mb-3">Liên hệ</h4>
+            <p class="mb-2">
+              <i class="fa fa-map-marker-alt me-3"></i>136 Minh Khai, Bắc Từ Liêm, Hà Nội
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-phone-alt me-3"></i>+84332706233
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-envelope me-3"></i>huaduy2k2@gmail.com
+            </p>
+            <div class="d-flex pt-2">
+              <a class="btn btn-outline-light btn-social" href="https://twitter.com/HuaDuy1012"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/duyhua01"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href="https://www.youtube.com/channel/UCzX6ZGGdhDTVnj5OhZG3JSg"
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href="www.linkedin.com/in/huaduy"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-white mb-3">Bộ sưu tầm</h4>
+            <div class="row g-2 pt-2">
+              <div class="col-4">
+                <img
+                  class="img-fluid bg-light p-1"
+                  src="img/toeic2.png"
+                  alt=""
+                />
+              </div>
+              <div class="col-4">
+                <img
+                  class="img-fluid bg-light p-1"
+                  src="img/toeic3.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="col-4">
+                <img
+                  class="img-fluid bg-light p-1"
+                  src="img/course-3.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="col-4">
+                <img
+                  class="img-fluid bg-light p-1"
+                  src="img/toeic5.png"
+                  alt=""
+                />
+              </div>
+              <div class="col-4">
+                <img
+                  class="img-fluid bg-light p-1"
+                  src="img/course-2.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="col-4">
+                <img
+                  class="img-fluid bg-light p-1"
+                  src="img/course-1.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-white mb-3">Bản tin</h4>
+            <p>Đăng ký thông báo để nhận ưu đãi mới nhất</p>
+            <div class="position-relative mx-auto" style="max-width: 400px">
+              <input
+                class="form-control border-0 w-100 py-3 ps-4 pe-5"
+                type="text"
+                placeholder="Email"
+              />
+              <button
+                type="button"
+                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
+              >
+                Đăng ký
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+              &copy; <a class="border-bottom" href="#">Hứa Như Duy</a>, All
+              Right Reserved.
+
+              <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+              Thiết kế bởi
+              <a class="border-bottom" href="https://htmlcodex.com"
+                >Hứa Như Duy</a
+              ><br /><br />
+              Phân phối bởi
+              <a class="border-bottom" href="https://themewagon.com"
+                >eTOEIC</a
+              >
+            </div>
+            <div class="col-md-6 text-center text-md-end">
+              <div class="footer-menu">
+                <a href="">Trang chủ</a>
+                <a href="">Cookies</a>
+                <a href="">Giúp đỡ</a>
+                <a href="">FQAs</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
